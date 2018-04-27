@@ -4,6 +4,7 @@
         <title>Lista Telefonica</title>
         <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="css/ui.css">
         <script src="lib/angular/angular.js"></script>
         <script src="lib/angular/angular-messages.js"></script>
         <script src="lib/angular/angular-locale_pt-br.js"></script>
@@ -14,12 +15,18 @@
         <script src="js/const/configValue.js"></script>
         <script src="js/filters/nameFilter.js"></script>
         <script src="js/filters/ellipsisFilter.js"></script>
+        <script src="js/directives/uiAlertDirective.js"></script>
     </head>
     <body ng-controller="listaTelefonicaCtrl">
         <div class="jumbotron">
             <!--<h4 ng-bind="app"></h4>-->
             <h3>{{app}}</h3>
-            {{error}}
+
+            <!--<ui-alert title="Ops, aconteceu um problema!" message="error"></ui-alert>-->
+            <ui-alert title="Ops, aconteceu um problema!">
+                {{error}}
+            </ui-alert>
+
             <center>
                 <div class="align-margin">
                     <input class="form-control" type="text" ng-model="criterioDeBusca" placeholder="O que você está buscando?"/>
@@ -33,7 +40,7 @@
                         </tr>
                         <tr ng-class="{selecionado: contato.selecionado}" ng-repeat="contato in contatos| filter:criterioDeBusca | orderBy:criterioDeOrdenacao:direcaoDaOrdenacao">
                             <td><input type="checkbox" ng-model="contato.selecionado"/></td>
-                            <td>{{contato.nome | name | ellipsis: 10}}</td>
+                            <td>{{contato.nome| name | ellipsis: 10}}</td>
                             <td>{{contato.telefone}}</td>
                             <td>{{contato.operadora.nome| lowercase}}</td>
                             <td>{{contato.data| date:'MMMM EEEE dd/MM/yyyy HH:mm'}}</td>
