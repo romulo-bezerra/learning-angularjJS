@@ -20,6 +20,7 @@ angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($s
             data = response.data;
             $scope.contatos = data;
         }, function (error) {
+            $scope.error = "Não foi possível carregar os dados!";
             console.log(error, 'Não foi possível obter os dados');
         });
     };
