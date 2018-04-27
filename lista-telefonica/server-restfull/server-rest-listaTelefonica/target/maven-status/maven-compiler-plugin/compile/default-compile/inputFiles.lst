@@ -1,0 +1,11 @@
+/home/romulo/Área de Trabalho/ESTUDO-ANGULARJS01/treinos/lista-telefonica/server-rest-listaTelefonica/src/main/java/com/listatelefonica/dao/Dao.java
+/home/romulo/Área de Trabalho/ESTUDO-ANGULARJS01/treinos/lista-telefonica/server-rest-listaTelefonica/src/main/java/com/listatelefonica/main/Main.java
+/home/romulo/Área de Trabalho/ESTUDO-ANGULARJS01/treinos/lista-telefonica/server-rest-listaTelefonica/src/main/java/com/listatelefonica/filtro/CORSFilter.java
+/home/romulo/Área de Trabalho/ESTUDO-ANGULARJS01/treinos/lista-telefonica/server-rest-listaTelefonica/src/main/java/com/listatelefonica/interfaces/IDao.java
+/home/romulo/Área de Trabalho/ESTUDO-ANGULARJS01/treinos/lista-telefonica/server-rest-listaTelefonica/src/main/java/com/listatelefonica/domain/Operadora.java
+/home/romulo/Área de Trabalho/ESTUDO-ANGULARJS01/treinos/lista-telefonica/server-rest-listaTelefonica/src/main/java/com/listatelefonica/infra/OperadoraResource.java
+/home/romulo/Área de Trabalho/ESTUDO-ANGULARJS01/treinos/lista-telefonica/server-rest-listaTelefonica/src/main/java/com/listatelefonica/infra/ContatoResource.java
+/home/romulo/Área de Trabalho/ESTUDO-ANGULARJS01/treinos/lista-telefonica/server-rest-listaTelefonica/src/main/java/com/listatelefonica/domain/Contato.java
+/home/romulo/Área de Trabalho/ESTUDO-ANGULARJS01/treinos/lista-telefonica/server-rest-listaTelefonica/src/main/java/com/listatelefonica/service/ServiceOperadora.java
+/home/romulo/Área de Trabalho/ESTUDO-ANGULARJS01/treinos/lista-telefonica/server-rest-listaTelefonica/src/main/java/com/listatelefonica/service/ServiceContato.java
+/home/romulo/Área de Trabalho/ESTUDO-ANGULARJS01/treinos/lista-telefonica/server-rest-listaTelefonica/src/main/java/com/listatelefonica/infra/ApplicationConfig.java

@@ -1,0 +1,15 @@
+com/listatelefonica/interfaces/IDao.class
+com/listatelefonica/domain/Operadora.class
+com/listatelefonica/infra/OperadoraResource$1.class
+com/listatelefonica/domain/Contato.class
+com/listatelefonica/infra/ContatoResource$1.class
+com/listatelefonica/domain/Operadora_.class
+com/listatelefonica/infra/ApplicationConfig.class
+com/listatelefonica/infra/OperadoraResource.class
+com/listatelefonica/filtro/CORSFilter.class
+com/listatelefonica/service/ServiceOperadora.class
+com/listatelefonica/domain/Contato_.class
+com/listatelefonica/infra/ContatoResource.class
+com/listatelefonica/service/ServiceContato.class
+com/listatelefonica/main/Main.class
+com/listatelefonica/dao/Dao.class
