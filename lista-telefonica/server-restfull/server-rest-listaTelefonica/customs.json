@@ -1,0 +1,11 @@
+{
+    "elements": {
+        "ui-accordions": {},
+        "ui-accordion": {
+            "attributes": {
+                "title": {}
+            }
+        }
+    },
+    "attributes": {}
+}
